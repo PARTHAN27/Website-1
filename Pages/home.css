@@ -23,7 +23,7 @@ body {
   position: fixed;
   top: 0%;
   left: 0%;
-  
+
 }
 
 .navbar {
@@ -68,12 +68,6 @@ transition:.5s ease;
   transition:.5s ease;
   border-radius: 3px;
   border: none;
-
-
-
-
-
-
 }
 .SIDEBAR {
     display: flex;
@@ -256,6 +250,9 @@ transition:.5s ease;
     text-align: center;
     position:fixed;
     animation: paraintro 3s normal forwards;
+    background-color:rgba(0, 0, 0, 0.50);
+    border-radius: 15px;
+    color:white;
 }
 @keyframes paraintro {
   from {top:70%;left:0%;opacity: 0%;}
