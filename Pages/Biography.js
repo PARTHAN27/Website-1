@@ -4,7 +4,7 @@ var content='';
 
 function nextMember(value) {
   i=i+value;
-  document.getElementById("snippetPara").innerHTML = i;
+
  if (i==1){
     content="Hello My name Is george rahul";
   };

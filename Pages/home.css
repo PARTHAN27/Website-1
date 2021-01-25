@@ -210,7 +210,7 @@ transition:.5s ease;
   top:30%;
   right:45%;
 }
-    .btgr {
+    #btgr1,#btgr2 {
 
       border-radius:4PX ;
       border:none;
@@ -225,7 +225,7 @@ transition:.5s ease;
 
     }
 
-    .btgr:hover {
+    #btgr1:hover,#btgr2:hover {
 
       border-radius:4PX ;
       border:none;
