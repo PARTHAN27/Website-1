@@ -88,3 +88,7 @@ transition:.5s ease;
         background-image: linear-gradient(to right,rgba(20, 222, 113, 1),rgba(0, 255, 254, 1));
 
     }
+
+    .Biographypara{
+      display: flex;
+    }
