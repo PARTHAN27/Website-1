@@ -25,6 +25,31 @@ body {
   left: 0%;
 
 }
+.signin{
+  position:fixed;
+  top: 25px;
+  right: 10px;
+  z-index: 100;
+}
+
+.signin button{
+  color: rgb(29, 57, 56);
+  border-radius: 10px;
+  border:3px solid;
+    font-size: 28px;
+    transition: 0.8s;
+    background: none;
+}
+
+.signin button:hover{
+  color: rgb(29, 57, 56);
+  border-radius: 15px;
+  border:3px solid;
+    font-size: 31px;
+    transition: 0.8s;
+    background: none;
+  background-image: linear-gradient(to right,rgba(20, 222, 113, 1),rgba(0, 255, 254, 1));
+    }
 
 .navbar {
 
