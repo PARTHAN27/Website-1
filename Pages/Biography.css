@@ -88,24 +88,50 @@ transition:.5s ease;
         background-image: linear-gradient(to right,rgba(20, 222, 113, 1),rgba(0, 255, 254, 1));
 
     }
-.biographyparacontainer{
-  display: flex;
-  position: fixed;
-  left: 50%;
-  top:50%;
-}
 
   .Biographypara{
     background-color: rgba(0, 0, 0, 0.73);
     padding: 10px;
     border-radius: 10px;
+    align-text:center;
+    justify-content: center;
+    align-items: center;
   }
+
+
+#navbutton1,#navbutton2{
+  background-color:rgba(0,0,0,0);
+  border: none;
+  color: white;
+  padding:none;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+  margin:none;
+  cursor:auto;
+}
 .buttoncontainer{
-  display: flex;
-  position: relative;
+  display:flex;
+  transform: translateX(50%);
+  transform: translateX(50%);
+}
+.content{
+  transform: translateY(50%);
+}
+
+
+#snippetPara{
+  color: white;
+  text-align: center;
 
 }
-.navbutton1,.navbutton2{
-  margin: 10px;
-  padding: 5px;
+
+#snippetPara p{
+  color: white;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+
 }

@@ -4,18 +4,25 @@ var content='';
 
 function nextMember(value) {
   i=i+value;
-
- if (i==1){
-    content="Hello My name Is george rahul";
+  if(i==0){
+    content="Welcome!";
+    document.getElementById("navbutton2").disabled = true;
   };
-  if (i==2){
-    content="Hello ";
+  if (i==1){
+     content="Click the arrows to proceed"
+     ;
+   };
+ if (i==2){
+    content="George Rahul was born on September 24,2004 as a child to Rupesh George and Sajitha TA in Lucknow,UP.";
   };
   if (i==3){
-    content=" My ";
+    content="As a child itself, George was very capable of high level reaasoning as well as to grasp very high level concepts";
   };
   if (i==4){
-    content=" name Is george rahul";
+    content="By the age of 10, he was well versed in all the subjects better than the reeaserchers and sceintists of his time";
   };
-  document.getElementById("snippetPara").innerHTML = i+content
+  if (i==5){
+    content="The END";
+  };
+  document.getElementById("snippetPara").innerHTML =content;
 }
