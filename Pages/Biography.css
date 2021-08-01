@@ -93,7 +93,7 @@ transition:.5s ease;
     background-color: rgba(0, 0, 0, 0.73);
     padding: 10px;
     border-radius: 10px;
-    align-text:center;
+    
     justify-content: center;
     align-items: center;
   }

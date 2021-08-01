@@ -1,7 +1,7 @@
 .contactst{
-  position: fixed;
-  top:360PX;
-  left:80px;
+  position:FIXED;
+  top:30%;
+  left:0%;
   width: 150px;
 
   color:rgb(85, 221, 197);
@@ -14,6 +14,7 @@
 }
 .contactst a:link,a:visited{
   text-decoration: none;
+  color: rgb(47, 160, 235);
   transition:2s;
 
 }
@@ -21,7 +22,7 @@
   border-radius: 7PX;
   border: none;
   margin: 5px;
-  color: rgb(21, 36, 190);
+  color: rgb(37, 55, 248);
   font-size: 52px;
   outline:none;
   padding: 5px 10px;
@@ -30,17 +31,12 @@
 }
 
 .contacthead{
-
-
   color:rgb(56, 201, 199);
   font-weight:bolder;
   text-decoration: underline;
   text-shadow: 2px 2px rgb(68, 103, 80);
-
-
   text-align: center;
   font-size: 50px;
-
   height: 1000px;
   width: 1500px;
 }
